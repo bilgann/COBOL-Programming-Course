@@ -1,0 +1,139 @@
+                                  Bilgan Kiris - Assignment 6    20250322
+
+no   trans trans   pay   store   invoice    sku               error description
+     code  amount  type  num     num        code
+006  S     20.00     CA    01    XA-600005                    The Invoice Num can only be A, B, C, D or E
+
+006  S     20.00     CA    01    XA-600005                    SKU Code can not be empty spaces
+
+007  S    149.99     CR    01    AA-700006  247R20EHF02EF8E   Invoice Num cannot have two letters the same
+
+009  S     10.00     CA    01    EB-900008  SDFSKJ84MS09123   Invoice Num cannot be > 900000 or < 100000
+
+014  S      9.99     CR    01    EB-1500A3  WI8HRW8H43FJSHF   Invoice Num cannot be > 900000 or < 100000
+
+023  S     10.00     CA    01    AA-240108  SDFSKJ84MS09123   Invoice Num cannot have two letters the same
+
+024  S    129.99     DB    01    DZ-250109  247R20EHF02EF8E   The Invoice Num can only be A, B, C, D or E
+
+030  R     24.99     CR    02    EB-310212                    SKU Code can not be empty spaces
+
+031  R     20.00     CA    02    BB-320015  SDFSKJ84MS09123   Invoice Num cannot have two letters the same
+
+034  S     10.07     CW    02    BA-350001  AADFSKJ84MS0913   Transaction amount must be numeric
+
+034  S     10.07     CW    02    BA-350001  AADFSKJ84MS0913   Payment type must be CA, CR, or DB
+
+044  S     89.99     CR    02    BC-0S0030  WI8HRW8H43FJSHF   Invoice Num cannot be > 900000 or < 100000
+
+045  S     10.00     CA    02    BB-460031  SDFSKJ84MS09123   Invoice Num cannot have two letters the same
+
+047  X      9.97     CR    02    CA-480033  WI8HRW8H43FJSHF   Transaction Code must be S, R, or L
+
+047  X      9.97     CR    02    CA-480033  WI8HRW8H43FJSHF   Transaction amount must be numeric
+
+049  R    124.99     CR    02    CD-500122                    SKU Code can not be empty spaces
+
+051  X    149.99     CR    02    DA-520036  247R20EHF02EF8E   Transaction Code must be S, R, or L
+
+052  S     29.99     DW    02    DB-530037  WI8HRW8H43FJSH2   Payment type must be CA, CR, or DB
+
+054  R     24.99     CR    02    DE-550212                    SKU Code can not be empty spaces
+
+057  S     29.99     DW    02    EC-580217  WI8HRW8H43FJSHF   Payment type must be CA, CR, or DB
+
+059  X    129.99     DB    02    AB-600219  247R20EHF02EF8E   Transaction Code must be S, R, or L
+
+063  S     20.00     CA    02    ET-640225  SDFSKJ84MS09123   The Invoice Num can only be A, B, C, D or E
+
+064  S    149.99     CR    02    EE-650226  247R20EHF02EF8E   Invoice Num cannot have two letters the same
+
+072  L    149.99     DB    12    CC-730234  LFW8H88W84HFW4F   Invoice Num cannot have two letters the same
+
+074  R     29.99     CW    02    CE-750335  SDFSKJ84MS09123   Payment type must be CA, CR, or DB
+
+075  C    149.99     CR    02    DA-760336  247R20EHF02EF8E   Transaction Code must be S, R, or L
+
+081  R     24.99     CR    13    EC-810402  FLW8H4FW8H4FWF4   Store num must be 01, 02, 03, 04, 05, or 12
+
+085  S     10.00     CA    13    AD-850408  SDFSKJ84MS09123   Store num must be 01, 02, 03, 04, 05, or 12
+
+087  S     89.99     CR    03    AA-870410  WI8HRW8H43FJSHF   Invoice Num cannot have two letters the same
+
+090  S      9.99     CR    03    EA-900413  WI8HRW8H43FJSHF   Invoice Num cannot be > 900000 or < 100000
+
+091  L     10.00     CA    03    GB-910401  SDFSKJ84MS09123   The Invoice Num can only be A, B, C, D or E
+
+091  L     10.00     CA    03    GB-910401  SDFSKJ84MS09123   Invoice Num cannot be > 900000 or < 100000
+
+092  S    129.99     DB    03    CC-920402  247R20EHF02EF8E   Invoice Num cannot have two letters the same
+
+092  S    129.99     DB    03    CC-920402  247R20EHF02EF8E   Invoice Num cannot be > 900000 or < 100000
+
+093  S     89.99     CR    03    ED-930403  WI8HRW8H43FJSHF   Invoice Num cannot be > 900000 or < 100000
+
+094  L     49.99     DB    03    AB-940404  LFW8H88W84HFW4F   Invoice Num cannot be > 900000 or < 100000
+
+095  R     24.99     CR    03    AC-950402  FLW8H4FW8H4FWF4   Invoice Num cannot be > 900000 or < 100000
+
+096  S     20.00     CA    04    AD-960405  SDFSKJ84MS09123   Invoice Num cannot be > 900000 or < 100000
+
+097  S    179.99     CR    17    AE-970406  247R20EHF02EF8E   Transaction amount must be numeric
+
+097  S    179.99     CR    17    AE-970406  247R20EHF02EF8E   Store num must be 01, 02, 03, 04, 05, or 12
+
+097  S    179.99     CR    17    AE-970406  247R20EHF02EF8E   Invoice Num cannot be > 900000 or < 100000
+
+098  R     29.99     DB    04    BA-98S407  WI8HRW8H43FJSHF   Invoice Num cannot be > 900000 or < 100000
+
+099  S     10.00     CA    04    CC-99S508  SDFSKJ84MS09123   Invoice Num cannot have two letters the same
+
+099  S     10.00     CA    04    CC-99S508  SDFSKJ84MS09123   Invoice Num cannot be > 900000 or < 100000
+
+106  R     24.99     CR    04    DB-106512                    SKU Code can not be empty spaces
+
+110  S    710.07     CW    05    EC-110501  AADFSKJ84MS0913   Transaction amount must be numeric
+
+110  S    710.07     CW    05    EC-110501  AADFSKJ84MS0913   Payment type must be CA, CR, or DB
+
+113  L     49.99     DB    05    DD-113524  LFW8H88W84HFW4F   Invoice Num cannot have two letters the same
+
+123  S      9.97     CR    12    DC-123633  WI8HRW8H43FJSHF   Transaction amount must be numeric
+
+125  R    124.99     CX    14    EE-125722                    Payment type must be CA, CR, or DB
+
+125  R    124.99     CX    14    EE-125722                    Store num must be 01, 02, 03, 04, 05, or 12
+
+125  R    124.99     CX    14    EE-125722                    Invoice Num cannot have two letters the same
+
+125  R    124.99     CX    14    EE-125722                    SKU Code can not be empty spaces
+
+127  X    149.99     CR    12    EB-127636  247R20EHF02EF8E   Transaction Code must be S, R, or L
+
+128  S     29.99     DW    12    EA-128637  WI8HRW8H43FJSH2   Payment type must be CA, CR, or DB
+
+131  R     24.00     CA    12    AD-131S15  SDFSKJ84MS09123   Invoice Num cannot be > 900000 or < 100000
+
+133  S     29.99     DW    01    BA-133617  WI8HRW8H43FJSHF   Payment type must be CA, CR, or DB
+
+135  W    129.99     DB    03    BD-135619  247R20EHF02EF8E   Transaction Code must be S, R, or L
+
+136  S     89.99     CR    04    BB-136623  WI8HRW8H43FJSHF   Invoice Num cannot have two letters the same
+
+143  S    129.99     DB    05    DD-143629  247R20EHF02EF8E   Invoice Num cannot have two letters the same
+
+149  R      4.99     CR    05    AC-1496N2  F4WO8JFO8W4JFW8   Invoice Num cannot be > 900000 or < 100000
+
+150  R     29.99     CW    12    AD-150635  SDFSKJ84MS09123   Payment type must be CA, CR, or DB
+
+151  X    149.99     CR    71    AE-151636  247R20EHF02EF8E   Transaction Code must be S, R, or L
+
+151  X    149.99     CR    71    AE-151636  247R20EHF02EF8E   Store num must be 01, 02, 03, 04, 05, or 12
+
+152  S     29.99     DB    08    AB-152637  WI8HRW8H43FJSH2   Store num must be 01, 02, 03, 04, 05, or 12
+
+
+----- REPORT TOTALS -----
+TOTAL RECORDS: 153
+VALID RECORDS: 001
+INVALID RECORDS: 001
